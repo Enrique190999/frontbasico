@@ -4,6 +4,10 @@ function saludar(){
 }
 
 function funcion(){
-    window.alert("1,2,3,4,5")
+    
+    for (var i = 1; i <= 5; i++) {
+        window.alert(i)
+     }
+
     console.log("numeros ok")
 }
